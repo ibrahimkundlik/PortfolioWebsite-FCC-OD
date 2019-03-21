@@ -1,0 +1,285 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+ 	font-weight: 300;
+ 	margin: 0;
+ 	font-size: 18px;
+ 	overflow-x: hidden;
+ 	overflow-y: hidden;
+ 	background: url('images/back5.png');
+}
+h1, h2, h3, h4, h5, h6 {
+ 	font-weight: 500;
+ 	margin: 0;
+}
+hr{
+	margin: 20px 0 20px 0;
+}
+ul, li, p, div, section, a, i, img {
+	padding: 0;
+	margin: 0;
+}
+#main{
+	display: grid;
+	grid-template-columns: 20% 80%;
+}
+.fa-bars{
+	display: none;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+#menu{
+	padding: 10px;
+	background: #f7f7f7;
+	overflow-y: auto;
+	height: 100vh;
+}
+.head-cont{
+	text-align: center;
+	margin-top: 30px;
+}
+.head-txt{
+	color: #67d89f;
+}
+.head-desc{
+	font-size: 12px;
+	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+.menu-list{
+	display: flex;
+	flex-direction: column;
+	flex-flow: wrap;
+}
+.list{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 20% 80%;
+	margin-bottom: 30px;
+	padding-left: 10px;
+}
+.list:hover{
+	border-left: 2px solid black;
+}
+.menu-item:hover{
+	color: #67d89f;
+}
+
+#container{
+	overflow-y: scroll;
+	height: 100vh;
+	box-shadow: 0 0 5px black;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+.intro-img{
+	background: #67d89f;
+}
+.intro-text-cont{
+	position: relative;
+	width: 100%;
+}
+.intro-text{
+	color: white;
+	font-size: 40px;
+	position: absolute;
+	left: 20%;
+	top: 80%;
+	text-align: left;
+	margin: 20% 20px 20px 20px;
+}
+.bg-change{
+	background: #67d89f;
+}
+.head{
+	background: #67d89f;
+	padding: 3% 0 3% 2%;
+	font-size: 40px;
+	margin-bottom: 3%;
+	width: 98%;
+}
+.about-txt, .about-p{
+	border-left: 3px solid black;
+	padding-left: 3%;
+	margin: 3%;
+}
+.education-cont, .contacts-cont{
+	padding: 0 5% 3% 5%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.edtn{
+	width: 100%;
+	padding: 2%;
+	margin: 3% 0 3% 0;
+	display: grid;
+	grid-template-columns: 13% 85%;
+	border: 1px solid #a29999;
+	border-radius: 5px;
+	background: #fbfbfb;
+	box-shadow: 0 0 10px #564c4c;
+}
+.img-cont{
+	border-radius: 50%;
+	text-align: center;
+}
+.edu-txt, .certi-txt{
+	margin-left: 5%;
+}
+.certi-cont, .proj-cont{
+	padding: 0 0 3% 5%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.certi{
+	width: 42%;
+	padding: 2%;
+	margin: 3% 3% 3% 0;
+	display: grid;
+	grid-template-columns: 13% 85%;
+	border: 1px solid #a29999;
+	border-radius: 5px;
+	background: #fbfbfb;
+	box-shadow: 0 0 10px #564c4c;
+}
+.proj{
+	width: 42%;
+	padding: 2%;
+	margin: 3% 3% 3% 0;
+	display: grid;
+	grid-template-rows: auto auto;
+	border: 1px solid #a29999;
+	border-radius: 5px;
+	background: #fbfbfb;
+	box-shadow: 0 0 10px #564c4c;
+}
+.proj-txt{
+	padding-top: 4%;
+}
+.skills-cont{
+	padding-bottom: 3%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.skill{
+	width: 21%;
+	padding: 2%;
+	display: grid;
+	grid-template-rows: auto auto;
+	text-align: center;
+}
+.cont{
+	width: 60%;
+	padding: 2%;
+	margin: 1% 0 1% 0;
+	display: grid;
+	grid-template-columns: 10% 90%;
+	border: 1px solid #a29999;
+	border-radius: 5px;
+	background: #fbfbfb;
+	box-shadow: 0 0 10px #564c4c;
+}
+.email, .git, .linked-in{
+	font-size: 25px;
+}
+
+@media screen and (max-width: 810px){
+	body{
+
+	}
+	#main{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.fa-bars{
+		display: block;
+		font-size: 30px;
+		text-align: center;
+		margin-top: 10%;
+	}
+	.header{
+		display: grid;
+		grid-template-columns: 10% 90%;
+	}
+	.head-cont{
+		text-align: center;
+		margin: 0;
+		width: 100%;
+	}
+	.head-desc{
+		margin: 0;
+	}
+	hr{
+		display: none;
+	}
+	#menu{
+		width: 100%;
+		height: auto;
+	}
+	.menu-list{
+		position: absolute;
+		width: 30%;
+		top: 69px;
+		left: 0;
+		z-index: 3;
+		padding-top: 20px;
+		padding-left: 20px;
+		background: #f7f7f7;
+		box-shadow: 2px 2px 5px #827272;
+	}
+	.menu-hidden{
+		display: none;
+	}
+	#container{
+		height: calc(100vh - 69px);
+	}
+}
+@media screen and (max-width: 550px){
+	body{
+		font-size: 15px;
+	}
+	.head{
+		font-size: 25px;
+	}
+	.intro-text{
+		font-size: 25px;
+		top: 0;
+		margin-top: 10%;
+	}
+	.menu-list{
+		top: 64px;
+	}
+}
+@media screen and (max-width: 650px) {
+	.certi{
+		width: 100%;
+	}
+	.proj-cont{
+		padding: 0;
+	}
+	.proj{
+		width: 85%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		text-align: center;
+		align-items: center;
+		margin: 2% auto 2% auto;
+	}
+	.proj-img{
+		width: 300px;
+		height: 300px;
+		border: 2px solid #67d89f;
+	}
+}
