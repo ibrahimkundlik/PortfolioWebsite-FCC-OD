@@ -229,7 +229,7 @@ img{
 	}
 	.menu-list{
 		position: absolute;
-		width: 30%;
+		width: 40%;
 		top: 69px;
 		left: 0;
 		z-index: 3;
@@ -259,6 +259,9 @@ img{
 	}
 	.menu-list{
 		top: 64px;
+	}
+	.cont{
+		width: 80%;
 	}
 }
 @media screen and (max-width: 650px) {
