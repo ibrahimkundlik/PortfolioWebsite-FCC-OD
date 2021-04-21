@@ -1,290 +1,370 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<title>Ibrahim Kundlik</title>
-</head>
-<body>
-	<div id="main">
-		<aside id="menu">
-			<header class="header">
-				<a href="#"><i class="fas fa-bars"></i></a>
-				<div class="head-cont">
-					<a href="#intro">
-						<h2 class="head-txt">Ibrahim Kundlik</h2>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+			integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Quicksand:300,500"
+			rel="stylesheet"
+		/>
+		<link
+			rel="shortcut icon"
+			href="./images/logo-red.png"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<title>Ibrahim Kundlik</title>
+	</head>
+	<body>
+		<div id="main">
+			<aside id="menu">
+				<header class="header">
+					<a href="#"><i class="fas fa-bars"></i></a>
+					<div class="head-cont">
+						<a href="#intro">
+							<h2 class="head-txt">Ibrahim Kundlik</h2>
+						</a>
+						<p class="head-desc">Frontend Web Developer</p>
+					</div>
+				</header>
+				<hr />
+				<ul class="menu-list menu-hidden">
+					<a href="#about" class="list">
+						<i class="fas fa-user" style="color: #7f7fea"></i>
+						<li class="menu-item">About</li>
 					</a>
-					<p class="head-desc">Frontend Web Developer</p>
-				</div>
-			</header>
-			<hr>
-			<ul class="menu-list menu-hidden">
-				<a href="#about" class="list">
-					<i class="fas fa-user" style="color: #7f7fea;"></i>
-					<li class="menu-item">About</li>
-				</a>
-				<a href="#education" class="list">
-					<i class="fas fa-graduation-cap" style="color: black;"></i>
-					<li class="menu-item">Education</li>
-				</a>
-				<a href="#certifications" class="list">
-					<i class="far fa-credit-card" style="color: #f50c0c;"></i>
-					<li class="menu-item">Certifications</li>
-				</a>
-				<a href="#projects" class="list">
-					<i class="fas fa-tasks" style="color: #3fab43;"></i>
-					<li class="menu-item">Projects</li>
-				</a>
-				<a href="#skills" class="list">
-					<i class="fas fa-chart-bar" style="color: #d47647;"></i>
-					<li class="menu-item">Skills</li>
-				</a>
-				<a href="#contact" class="list">
-					<i class="fas fa-envelope" style="color: #3393b1;"></i>
-					<li class="menu-item">Contact</li>
-				</a>
-			</ul>
-		</aside>
-		<section id="container">
-			<div id="intro">
-				<div class="intro-text-cont">
-					<h1 class="intro-text">I want to <br> <strong class="bg-change"> make things </strong> <br>that make a difference.</h1>
-				</div>
-				<div class="intro-img">
-					<img src="images/bg1.jpg" alt="ibrahim-image">
-				</div>
-			</div>
-			<div id="about">
-				<h1 class="head">ABOUT</h1>
-				<h3 class="about-txt">Mission-driven frontend developer with a passion for development, design, collaboration, and teaching.</h3>
-				<p class="about-p">
-					I'm a final year Bachelor of Engineering (Electronics Engineering) student at D.Y.Patil Ramrao Adik Institute of Technology, Nerul. I am very passionate about learning new technologies, exploring them and making new things. I love collaborating with people in designing and developing new things.
-				</p>
-			</div>
-			<div id="education">
-				<h1 class="head">EDUCATION</h1>
-				<div class="education-cont">
-					<div class="edtn">
-						<div class="img-cont">
-							<img src="images/rait.png" class="img-cont" alt="rait college">
-						</div>
-						<div class="edu-txt">
-							<h2>Ramrao Adik Institute of Technology</h2>
-							<p>B.E - Bachelor of Engineering (Electronics Engineering)<br>
-								2015 - 2019
-							</p>
-						</div>
+					<a href="#education" class="list">
+						<i class="fas fa-graduation-cap" style="color: black"></i>
+						<li class="menu-item">Education</li>
+					</a>
+					<a href="#certifications" class="list">
+						<i class="far fa-credit-card" style="color: #f50c0c"></i>
+						<li class="menu-item">Certifications</li>
+					</a>
+					<a href="#projects" class="list">
+						<i class="fas fa-tasks" style="color: #3fab43"></i>
+						<li class="menu-item">Projects</li>
+					</a>
+					<a href="#skills" class="list">
+						<i class="fas fa-chart-bar" style="color: #d47647"></i>
+						<li class="menu-item">Skills</li>
+					</a>
+					<a href="#contact" class="list">
+						<i class="fas fa-envelope" style="color: #3393b1"></i>
+						<li class="menu-item">Contact</li>
+					</a>
+				</ul>
+			</aside>
+			<section id="container">
+				<div id="intro">
+					<div class="intro-text-cont">
+						<h1 class="intro-text">
+							I want to <br />
+							<strong class="bg-change"> make things </strong> <br />that make a
+							difference.
+						</h1>
 					</div>
-					<div class="edtn">
-						<div class="img-cont">
-							<img src="images/wilson.jpg" class="img-cont" alt="wilson college">
-						</div>
-						<div class="edu-txt">
-							<h2>Wilson College</h2>
-							<p>Higher Secondary Certificate (Science)<br>
-								2013 - 2015
-							</p>
-						</div>
+					<div class="intro-img">
+						<img src="images/bg1.jpg" alt="ibrahim-image" />
 					</div>
 				</div>
-			</div>
-			<div id="certifications">
-				<h1 class="head">CERTIFICATIONS</h1>
-				<div class="certi-cont">
-					<div class="certi">
-						<div class="img-cont">
-							<img src="images/udacity.png" alt="udacity" class="img-cont">
+				<div id="about">
+					<h1 class="head">ABOUT</h1>
+					<h3 class="about-txt">
+						Mission-driven frontend developer with a passion for development,
+						design, collaboration, and teaching.
+					</h3>
+					<p class="about-p">
+						I'm a final year Bachelor of Engineering (Electronics Engineering)
+						student at D.Y.Patil Ramrao Adik Institute of Technology, Nerul. I
+						am very passionate about learning new technologies, exploring them
+						and making new things. I love collaborating with people in designing
+						and developing new things.
+					</p>
+				</div>
+				<div id="education">
+					<h1 class="head">EDUCATION</h1>
+					<div class="education-cont">
+						<div class="edtn">
+							<div class="img-cont">
+								<img
+									src="images/rait.png"
+									class="img-cont"
+									alt="rait college"
+								/>
+							</div>
+							<div class="edu-txt">
+								<h2>Ramrao Adik Institute of Technology</h2>
+								<p>
+									B.E - Bachelor of Engineering (Electronics Engineering)<br />
+									2015 - 2019
+								</p>
+							</div>
 						</div>
-						<div class="certi-txt">
-							<h2>Udacity</h2>
-							<p>Front-End Web Developer Nanodegree<br>
-								December 2018
-							</p>
-						</div>
-					</div>
-					<div class="certi">
-						<div class="img-cont">
-							<img src="images/eck.jpg" alt="eckovation" class="img-cont">
-						</div>
-						<div class="certi-txt">
-							<h2>Eckovation</h2>
-							<p>Java Programming<br>
-								August 2018
-							</p>
-						</div>
-					</div>
-					<div class="certi">
-						<div class="img-cont">
-							<img src="images/eck.jpg" alt="eckovation" class="img-cont">
-						</div>
-						<div class="certi-txt">
-							<h2>Eckovation</h2>
-							<p>C++ Programming<br>
-								April 2018
-							</p>
-						</div>
-					</div>
-					<div class="certi">
-						<div class="img-cont">
-							<img src="images/eck.jpg" alt="eckovation" class="img-cont">
-						</div>
-						<div class="certi-txt">
-							<h2>Eckovation</h2>
-							<p>C Programming<br>
-								February 2018
-							</p>
+						<div class="edtn">
+							<div class="img-cont">
+								<img
+									src="images/wilson.jpg"
+									class="img-cont"
+									alt="wilson college"
+								/>
+							</div>
+							<div class="edu-txt">
+								<h2>Wilson College</h2>
+								<p>
+									Higher Secondary Certificate (Science)<br />
+									2013 - 2015
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div id="projects">
-				<h1 class="head">PROJECTS</h1>
-				<div class="proj-cont">
-					<div class="proj">
-						<div class="proj-img">
-							<img src="images/p1.jpg" alt="neighborhood map project">
+				<div id="certifications">
+					<h1 class="head">CERTIFICATIONS</h1>
+					<div class="certi-cont">
+						<div class="certi">
+							<div class="img-cont">
+								<img src="images/udacity.png" alt="udacity" class="img-cont" />
+							</div>
+							<div class="certi-txt">
+								<h2>Udacity</h2>
+								<p>
+									Front-End Web Developer Nanodegree<br />
+									December 2018
+								</p>
+							</div>
 						</div>
-						<div class="proj-txt">
-							<h2><a href="https://github.com/ibrahimkundlik/NeighborhoodMapReact">
-								Neighborhood Map
-							</a></h2>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-							</p>
+						<div class="certi">
+							<div class="img-cont">
+								<img src="images/eck.jpg" alt="eckovation" class="img-cont" />
+							</div>
+							<div class="certi-txt">
+								<h2>Eckovation</h2>
+								<p>
+									Java Programming<br />
+									August 2018
+								</p>
+							</div>
 						</div>
-					</div>
-					<div class="proj">
-						<div class="proj-img">
-							<img src="images/p2.png" alt="reads app">
+						<div class="certi">
+							<div class="img-cont">
+								<img src="images/eck.jpg" alt="eckovation" class="img-cont" />
+							</div>
+							<div class="certi-txt">
+								<h2>Eckovation</h2>
+								<p>
+									C++ Programming<br />
+									April 2018
+								</p>
+							</div>
 						</div>
-						<div class="proj-txt">
-							<h2><a href="https://github.com/ibrahimkundlik/MyReadsApp">
-								My Reads App
-							</a></h2>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-							</p>
-						</div>
-					</div>
-					<div class="proj">
-						<div class="proj-img">
-							<img src="images/p3.jpg" alt="restaurant review app">
-						</div>
-						<div class="proj-txt">
-							<h2><a href="https://github.com/ibrahimkundlik/RestaurantReviewsApp">
-								Restaurant Review App
-							</a></h2>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-							</p>
-						</div>
-					</div>
-					<div class="proj">
-						<div class="proj-img">
-							<img src="images/p4.png" alt="feed reader testing">
-						</div>
-						<div class="proj-txt">
-							<h2><a href="https://github.com/ibrahimkundlik/FeedReaderTesting">
-								Feed Reader Testing
-							</a></h2>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-							</p>
-						</div>
-					</div>
-					<div class="proj">
-						<div class="proj-img">
-							<img src="images/p5.png" alt="arcade game">
-						</div>
-						<div class="proj-txt">
-							<h2><a href="https://github.com/ibrahimkundlik/ClassicArcadeGame">
-								Classic Arcade Game
-							</a></h2>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-							</p>
-						</div>
-					</div>
-					<div class="proj">
-						<div class="proj-img">
-							<img src="images/p6.png" alt="memory game">
-						</div>
-						<div class="proj-txt">
-							<h2><a href="https://github.com/ibrahimkundlik/MemoryGame">
-								Memory Game
-							</a></h2>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-							</p>
+						<div class="certi">
+							<div class="img-cont">
+								<img src="images/eck.jpg" alt="eckovation" class="img-cont" />
+							</div>
+							<div class="certi-txt">
+								<h2>Eckovation</h2>
+								<p>
+									C Programming<br />
+									February 2018
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div id="skills">
-				<h1 class="head">SKILLS</h1>
-				<div class="skills-cont">
-					<div class="skill">
-						<img src="images/html.png" alt="html">
-						<strong>HTML</strong>
-					</div>
-					<div class="skill">
-						<img src="images/css.png" alt="css">
-						<strong>CSS</strong>
-					</div>
-					<div class="skill">
-						<img src="images/js.png" alt="js">
-						<strong>Javascript</strong>
-					</div>
-					<div class="skill">
-						<img src="images/react.png" alt="react">
-						<strong>React</strong>
-					</div>
-					<div class="skill">
-						<img src="images/jsx.png" alt="JSX">
-						<strong>JSX</strong>
-					</div>
-					<div class="skill">
-						<img src="images/git.png" alt="git">
-						<strong>Github</strong>
-					</div>
-					<div class="skill">
-						<img src="images/java.png" alt="java">
-						<strong>Java</strong>
-					</div>
-					<div class="skill">
-						<img src="images/c.png" alt="java">
-						<strong>C</strong>
-					</div>
-				</div>	
-			</div>
-			<div id="contact">
-				<h1 class="head">CONTACT</h1>
-				<div class="contacts-cont">
-					<div class="cont">
-						<div class="email">
-							<i class="far fa-envelope"></i>
+				<div id="projects">
+					<h1 class="head">PROJECTS</h1>
+					<div class="proj-cont">
+						<div class="proj">
+							<div class="proj-img">
+								<img src="images/p1.jpg" alt="neighborhood map project" />
+							</div>
+							<div class="proj-txt">
+								<h2>
+									<a
+										href="https://github.com/ibrahimkundlik/NeighborhoodMapReact"
+										target="_blank"
+									>
+										Neighborhood Map
+									</a>
+								</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								</p>
+							</div>
 						</div>
-						<h3>ibrahimkundlik@gmail.com</h3>
-					</div>
-					<div class="cont">
-						<div class="git">
-							<i class="fab fa-github"></i>
+						<div class="proj">
+							<div class="proj-img">
+								<img src="images/p2.png" alt="reads app" />
+							</div>
+							<div class="proj-txt">
+								<h2>
+									<a
+										href="https://github.com/ibrahimkundlik/MyReadsApp"
+										target="_blank"
+									>
+										My Reads App
+									</a>
+								</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								</p>
+							</div>
 						</div>
-						<a href="https://github.com/ibrahimkundlik"><h3>Github</h3></a>
-					</div>
-					<div class="cont">
-						<div class="linked-in">
-							<i class="fab fa-linkedin"></i>
+						<div class="proj">
+							<div class="proj-img">
+								<img src="images/p3.jpg" alt="restaurant review app" />
+							</div>
+							<div class="proj-txt">
+								<h2>
+									<a
+										href="https://github.com/ibrahimkundlik/RestaurantReviewsApp"
+										target="_blank"
+									>
+										Restaurant Review App
+									</a>
+								</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								</p>
+							</div>
 						</div>
-						<a href="https://www.linkedin.com/in/ibrahim-kundlik-94725617b/"><h3>Linked In</h3></a>
+						<div class="proj">
+							<div class="proj-img">
+								<img src="images/p4.png" alt="feed reader testing" />
+							</div>
+							<div class="proj-txt">
+								<h2>
+									<a
+										href="https://github.com/ibrahimkundlik/FeedReaderTesting"
+										target="_blank"
+									>
+										Feed Reader Testing
+									</a>
+								</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								</p>
+							</div>
+						</div>
+						<div class="proj">
+							<div class="proj-img">
+								<img src="images/p5.png" alt="arcade game" />
+							</div>
+							<div class="proj-txt">
+								<h2>
+									<a
+										href="https://github.com/ibrahimkundlik/ClassicArcadeGame"
+										target="_blank"
+									>
+										Classic Arcade Game
+									</a>
+								</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								</p>
+							</div>
+						</div>
+						<div class="proj">
+							<div class="proj-img">
+								<img src="images/p6.png" alt="memory game" />
+							</div>
+							<div class="proj-txt">
+								<h2>
+									<a
+										href="https://github.com/ibrahimkundlik/MemoryGame"
+										target="_blank"
+									>
+										Memory Game
+									</a>
+								</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+								</p>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-	</div>
-	<script type="text/javascript" src="app.js"></script>
-</body>
+				<div id="skills">
+					<h1 class="head">SKILLS</h1>
+					<div class="skills-cont">
+						<div class="skill">
+							<img src="images/html.png" alt="html" />
+							<strong>HTML</strong>
+						</div>
+						<div class="skill">
+							<img src="images/css.png" alt="css" />
+							<strong>CSS</strong>
+						</div>
+						<div class="skill">
+							<img src="images/js.png" alt="js" />
+							<strong>Javascript</strong>
+						</div>
+						<div class="skill">
+							<img src="images/react.png" alt="react" />
+							<strong>React</strong>
+						</div>
+						<div class="skill">
+							<img src="images/jsx.png" alt="JSX" />
+							<strong>JSX</strong>
+						</div>
+						<div class="skill">
+							<img src="images/git.png" alt="git" />
+							<strong>Github</strong>
+						</div>
+						<div class="skill">
+							<img src="images/java.png" alt="java" />
+							<strong>Java</strong>
+						</div>
+						<div class="skill">
+							<img src="images/c.png" alt="java" />
+							<strong>C</strong>
+						</div>
+					</div>
+				</div>
+				<div id="contact">
+					<h1 class="head">CONTACT</h1>
+					<div class="contacts-cont">
+						<div class="cont">
+							<div class="email">
+								<i class="far fa-envelope"></i>
+							</div>
+							<h3>ibrahimkundlik@gmail.com</h3>
+						</div>
+						<div class="cont">
+							<div class="git">
+								<i class="fab fa-github"></i>
+							</div>
+							<a href="https://github.com/ibrahimkundlik" target="_blank"
+								><h3>Github</h3></a
+							>
+						</div>
+						<div class="cont">
+							<div class="linked-in">
+								<i class="fab fa-linkedin"></i>
+							</div>
+							<a
+								href="https://www.linkedin.com/in/ibrahimkundlik/"
+								target="_blank"
+								><h3>Linked In</h3></a
+							>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<script type="text/javascript" src="app.js"></script>
+	</body>
 </html>
